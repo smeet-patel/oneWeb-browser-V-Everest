@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F78C3</color>
+    <color name="colorPrimaryDark">#69f0ae</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="icons">#ffffff</color>
+    <color name="openbc">#3b0f78c3</color>
+    <color name="delbc">#25ff005d</color>
+</resources>

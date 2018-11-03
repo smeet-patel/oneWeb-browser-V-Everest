@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.smeet.oneweb.MainActivity">
+
+    <group android:orderInCategory="100" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Back-m"
+        android:icon="@drawable/ic_navigate_before_black_24dp"
+        android:iconTint="@color/icons"
+        android:orderInCategory="1"
+        android:title="Back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/forward-m"
+        android:icon="@drawable/ic_navigate_next_black_24dp"
+        android:iconTint="@color/icons"
+        android:orderInCategory="2"
+        android:title="Forward"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="3"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fav-m"
+        android:icon="@drawable/ic_stars_black_24dp"
+        android:iconTint="@color/icons"
+        android:orderInCategory="4"
+        android:title="Favourite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tab-m"
+        android:icon="@drawable/ic_tab"
+        android:iconTint="@color/icons"
+        android:orderInCategory="5"
+        android:title="Tab"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tab-bnt"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:iconTint="@color/icons"
+        android:title="Current Tabs"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fav-list"
+        android:title="Favourite list"
+        android:orderInCategory="7"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/hist-list"
+        android:title="History List"
+        android:orderInCategory="9"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/app_bar_switch"
+        android:orderInCategory="102"
+        android:title="Switch"
+        app:actionLayout="@layout/switch_item" />
+
+</menu>
+
