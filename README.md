@@ -1,5 +1,5 @@
 # Everest
-Everest is a web browser for all Andriod devices which simplifies and enhances the browsing experience. 
+Everest is a web browser for all Android devices which simplifies and enhances the browsing experience. 
 For this project I gain a comprehensive understanding of the WebView class, Android App bar with a search bar, intents, layouts, listeners, custom list and layout versus activity.
 
 ### Find out more on http://www.smeet-patel.com/everest.html
